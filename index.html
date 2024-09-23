@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bambang Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .about, .contact, .social {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            margin-top: 0;
+        }
+        .social-icons a {
+            color: #2c3e50;
+            font-size: 1.5em;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+        .social-icons a:hover {
+            color: #3498db;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form input[type="submit"] {
+            background-color: #2c3e50;
+            color: white;
+            cursor: pointer;
+        }
+        form input[type="submit"]:hover {
+            background-color: #1a252f;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bambang's Personal Website</h1>
+    <p>Selamat datang di websiteku!</p>
+</header>
+
+<div class="container">
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Hai, Saya Bambang, disini saya menyediakan jasa pembuatan website dengan harga yang pastinya terjangkau.</p>
+    </section>
+
+    <section class="social">
+        <h2>Connect with Me</h2>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/ull_bmbng" target="_blank">Instagram</a>
+            <div class="social-icons">
+            <a href="https://wa.me/+6283849223552" target="_blank">WhatsApp</a>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:bulat9597@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Bambang's Personal Website. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
